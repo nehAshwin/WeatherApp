@@ -1,0 +1,25 @@
+### Day 2: Setup Apple Developer Program + Use OpenWeather API
+
+- Project needs to include a team, and that Apple ID needs to be registered as an Apple Developer on the program to add devices to the 
+- Access weather at any location using OpenWeather API
+    - Do you simply look online for API's that are capable of what you need?
+
+### Day 1: Setup + Share Location Button
+
+- Create Project on Xcode
+- Write LocationManager.swift
+    - include LocationManager class imported from CoreLocation
+    - initialize location object
+    - create variables for location and loading
+    - write functions to request and access user location and handle errors
+        - including a loading period
+- Write ContentView and Welcome View
+    - Style welcome page for app using CoreLocationUI
+
+To Do:
+
+- Create app logo and add to assets
+    - Need images for EVERY spot
+- Currently requests location every time app is opened
+    - Use Apple: Adding Location Services to Your App to update that
+- Add to WelcomeView VStack logo without background
