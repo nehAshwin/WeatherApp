@@ -1,8 +1,14 @@
-### Day 2: Setup Apple Developer Program + Use OpenWeather API
+### Day 2: Setup Apple Developer Program + Use OpenWeather API to access data
 
-- Project needs to include a team, and that Apple ID needs to be registered as an Apple Developer on the program to add devices to the 
+- Project needs to include a team, and that Apple ID needs to be registered as an Apple Developer on the program to add devices to the Apple ID team
+    - not sure if I can bypass this process
 - Access weather at any location using OpenWeather API
     - Do you simply look online for API's that are capable of what you need?
+- Access data by linking data in a url through the API call 
+- decode data from JSON data to Swift data (is this formatting and readability?)
+- WeatherManager returns decodedData
+
+*there's a lot about the WeatherManager file I don't understand
 
 ### Day 1: Setup + Share Location Button
 
